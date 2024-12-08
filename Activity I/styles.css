@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lista-estudiantes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lista-estudiantes li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .lista-estudiantes li:last-child {
+    border-bottom: none;
+  }
+  
+  .lista-estudiantes li span {
+    font-weight: bold;
+  }
+  
+  .matricula {
+    color: #337ab7;
+  }
+  
+  .asistencia {
+    color: #5cb85c;
+  }
+  
+  .calificacion {
+    color: #f0ad4e;
+  }
